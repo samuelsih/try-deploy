@@ -11,6 +11,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [vitePreprocess(), mdsvex(mdsvexConfig)],
 
+	//adapter static
 	kit: {
 		adapter: adapter({ strict: false })
 	}
